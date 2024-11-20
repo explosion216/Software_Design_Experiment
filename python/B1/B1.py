@@ -85,8 +85,8 @@ def output_results(filename, students, class_average, grade_counts, percentages)
             file.write(f"{grade}: {count} students ({percentages[grade]:.2f}%)\n")
 
 def main():
-    input_file = "B1/note.dat"
-    output_file = "B1/out.dat"
+    input_file = "python/B1/note.dat"
+    output_file = "python/B1/out.dat"
     if not os.path.exists(input_file):
         print("Input file not found.")
         return

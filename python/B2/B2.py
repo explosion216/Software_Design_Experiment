@@ -1,4 +1,4 @@
-import os
+import  os
 
 # Define the CallRecord class
 class CallRecord:
@@ -141,10 +141,10 @@ def query_call_records(phone_number, call_records, users):
 # Main function to run the system
 def main():
     # Updated file paths to point to the B2 subfolder
-    call_file = "B2/hd.dat"
-    rate_file = "B2/fl.dat"
-    user_file = "B2/yh.dat"
-    charge_file = "B2/fy.dat"  # Output file for calculated charges
+    call_file = "python/B2/hd.dat"
+    rate_file = "python/B2/fl.dat"
+    user_file = "python/B2/yh.dat"
+    charge_file = "python/B2/fy.dat"  # Output file for calculated charges
     
     # Load data
     if not (os.path.exists(call_file) and os.path.exists(rate_file) and os.path.exists(user_file)):
